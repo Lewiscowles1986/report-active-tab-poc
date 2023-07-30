@@ -1,4 +1,4 @@
-[The icon is from flaticon ![A picture of a tabbed interface](src/icons/icon.png)](https://www.flaticon.com/free-icon/tab_3094392)
+[The icon is from flaticon ![A picture of a tabbed interface](browser_extension/src/icons/icon.png)](https://www.flaticon.com/free-icon/tab_3094392)
 
 # Report Active Tab
 A Browser addon for FireFox & Chrome to report the active tab
