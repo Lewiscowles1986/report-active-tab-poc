@@ -19,6 +19,11 @@
     "*://*/*"
   ],
   "background": {
-    "service_worker": "background.js"
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{8e00f009-7355-4d6a-a13b-ee49a3d618a2}"
+    }
   }
 }
