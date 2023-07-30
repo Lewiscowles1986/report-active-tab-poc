@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Report Active Tab URL",
+  "version": "0.0.1",
+  "description": "Report Active Tab URL makes it possible to report the active browser tab URL to a server with a simple specification",
+  "author": "LewisCowles <lewis+report-active-tab-url@cowles.uk>",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "64": "icons/icon64.png",
+    "128": "icons/icon.png"
+  },
+  "homepage_url": "https://lewiscowles.co.uk",
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
